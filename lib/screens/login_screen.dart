@@ -1,9 +1,11 @@
-import 'package:airochat/constants.dart';
-import 'package:airochat/screens/welcome_screen.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'chat_screen.dart';
-import 'package:airochat/Components/round_button.dart';
+
+import '../Components/round_button.dart';
+import './welcome_screen.dart';
+import './chat_screen.dart';
+import '../constants.dart';
+
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
 
 class LoginScreen extends StatefulWidget {

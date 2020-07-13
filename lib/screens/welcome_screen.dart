@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'login_screen.dart';
-import 'registration_screen.dart';
+
+import './login_screen.dart';
+import './registration_screen.dart';
+import '../Components/round_button.dart';
+
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:airochat/Components/round_button.dart';
 
 class WelcomeScreen extends StatefulWidget {
   static const String id = 'welcomescreen';

@@ -1,7 +1,9 @@
-import 'package:airochat/screens/chat_screen.dart';
 import 'package:flutter/material.dart';
+
+import './message_bubble.dart';
+import '../screens/chat_screen.dart';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:airochat/Components/message_bubble.dart';
 
 class MessageStream extends StatelessWidget {
   MessageStream({

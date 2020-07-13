@@ -1,9 +1,11 @@
-import 'package:airochat/screens/welcome_screen.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:airochat/constants.dart';
+
+import '../Components/message_stream.dart';
+import './welcome_screen.dart';
+import '../constants.dart';
+
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:airochat/Components/message_stream.dart';
 
 FirebaseUser loggedInUser;
 
